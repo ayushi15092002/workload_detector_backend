@@ -24,15 +24,15 @@ def predict():
     eeg_file = request.files['eeg']
     # save files to temporary location
     # nback1 = vhdr_file
-    vhdr_path = r"F:/drdo/temp_data/nback1.vhdr"
+    vhdr_path = r"F:/workload_detector_backend/temp_data/nback1.vhdr"
     vhdr_file.save(vhdr_path)
 
     # nback1 = mkr_file
-    vmrk_path = r"F:/drdo/temp_data/nback1.vmrk"
+    vmrk_path = r"F:/workload_detector_backend/temp_data/nback1.vmrk"
     mkr_file.save(vmrk_path)
 
     # nback1 = eeg_file
-    eeg_path = r"F:/drdo/temp_data/nback1.eeg"
+    eeg_path = r"F:/workload_detector_backend/temp_data/nback1.eeg"
     eeg_file.save(eeg_path)
 
     # vhdr_file = r"data\nback1.vhdr"
